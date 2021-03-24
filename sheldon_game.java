@@ -28,12 +28,12 @@ public class JogoDoSheldon {
         
         switch (escolhaSheldon){
             
-        //PEDRA (CONDICOES DE VITORIA/EMPATE/DERROTA)
-        // caso sheldon escolha pedra, compara com a escolha do raj e devolve o resultado
-        // Raj- pedra (empata)
-        //    - papel ou spock (sheldon perde)
-        //    - else, que seria tesoura ou lagarto (sheldon ganha)
-        //**e assim por diante com as outras combinações e possibilidades...**
+        /* PEDRA (CONDICOES DE VITORIA/EMPATE/DERROTA)
+        * caso sheldon escolha pedra, compara com a escolha do raj e devolve o resultado
+        * Raj- pedra (empata)
+        *    - papel ou spock (sheldon perde)
+        *    - else, que seria tesoura ou lagarto (sheldon ganha)
+        * e assim por diante com as outras combinações e possibilidades... */
             
             case "pedra": if (escolhaRaj.equals ("pedra")) {   
                 System.out.println("Caso#"+ i +":De novo!\n");
